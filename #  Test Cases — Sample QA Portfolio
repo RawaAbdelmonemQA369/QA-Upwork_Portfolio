@@ -55,17 +55,6 @@ Selected item appears in the cart with correct price and quantity.
 Order is placed successfully, and confirmation page appears with order ID.  
 **Status:** _To be tested_  
 
----
-
-##  TC-005: Search for a product
-**Title:** Verify search returns relevant products  
-**Preconditions:** Products are available in the database  
-**Steps:**
-1. Enter product name “Laptop” in search bar  
-2. Click “Search”  
-**Expected Result:**  
-List of laptops appears with accurate names and prices.  
-**Status:** _To be tested_  
 
 ---
 
