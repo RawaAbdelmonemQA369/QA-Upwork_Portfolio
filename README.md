@@ -1,4 +1,4 @@
-# QA-Portfolio
+# QA-Upwork_Portfolio
 Sample QA artifacts — test cases, bug reports, and Gherkin scenario
 
 This repository contains sample QA artifacts to demonstrate manual testing skills:
