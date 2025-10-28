@@ -18,20 +18,7 @@ User is redirected to the dashboard and sees a welcome message.
 
 ---
 
-##  TC-002: Login with invalid password
-**Title:** Verify error message appears for wrong password  
-**Preconditions:** User account exists  
-**Steps:**
-1. Navigate to login page  
-2. Enter valid username and wrong password  
-3. Click “Login” button  
-**Expected Result:**  
-System displays error message “Invalid username or password.”  
-**Status:** _To be tested_  
-
----
-
-##  TC-003: Add item to shopping cart
+##  TC-002: Add item to shopping cart
 **Title:** Verify user can add product to cart  
 **Preconditions:** User is logged in  
 **Steps:**
@@ -44,7 +31,7 @@ Selected item appears in the cart with correct price and quantity.
 
 ---
 
-##  TC-004: Checkout with valid payment
+##  TC-003: Checkout with valid payment
 **Title:** Verify successful checkout using valid card details  
 **Preconditions:** User has at least one item in cart  
 **Steps:**
