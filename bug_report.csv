@@ -1,0 +1,15 @@
+ID,Title,Environment,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority,Status,Screenshot_Link,Reported_By,Date
+BUG-001,Login button not working,Web - Chrome v125,"1. Open login page
+2. Enter valid credentials
+3. Click 'Login' button","User should be redirected to dashboard","Nothing happens when clicking Login button",High,High,New,https://dummyimage.com/600x400/ef476f/ffffff&text=Bug001,Rawa Abdelhadi,2025-10-28
+BUG-002,Error message not shown for invalid password,Web - Safari v17,"1. Open login page
+2. Enter wrong password
+3. Click 'Login'","System should display 'Invalid username or password'","No message appears, page refreshes silently",Medium,Medium,In Progress,https://dummyimage.com/600x400/ffd166/000000&text=Bug002,Rawa Abdelhadi,2025-10-28
+BUG-003,Total amount not updated after applying discount code,Web - Edge v121,"1. Add item to cart
+2. Proceed to checkout
+3. Enter discount code 'QA369'
+4. Click 'Apply'","Discount should be applied and total reduced","System shows 'Discount applied' but total remains unchanged",High,Medium,New,https://dummyimage.com/600x400/06d6a0/ffffff&text=Bug003,Rawa Abdelhadi,2025-10-28
+BUG-004,Slow loading time on product details page,Web - Chrome v125,"1. Open any product page","Product page should load within 2 seconds","Takes more than 8 seconds to load content",Low,Low,New,https://dummyimage.com/600x400/118ab2/ffffff&text=Bug004,Rawa Abdelhadi,2025-10-28
+BUG-005,Incorrect confirmation message after payment,Web - Firefox v124,"1. Add item to cart
+2. Checkout with valid credit card
+3. Complete payment","System should show 'Payment Successful'","Shows 'Transaction completed with errors' instead",High,High,Reopened,https://dummyimage.com/600x400/073b4c/ffffff&text=Bug005,Rawa Abdelhadi,2025-10-28
